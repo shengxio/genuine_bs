@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="genuine-bs-shengxio",
-    version="1.1.1",
+    version="1.1.2",
     author="Roland Ding",
     author_email="shengxio@ualberta.ca",
     description="A complete random content generator created based on en_core_web_md vocabulary.",
