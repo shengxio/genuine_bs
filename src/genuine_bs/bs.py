@@ -1,6 +1,6 @@
 from random import choices, randint
 
-with open('vocab','r') as f:
+with open('./vocab','r') as f:
     vocabulary = f.read().split(',')
     
 def phrase(length = randint(2,5)):
