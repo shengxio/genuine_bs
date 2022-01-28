@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Welcome to Genuine BS!
 
-You can use the [editor on GitHub](https://github.com/shengxio/genuine_bs/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Inspired by project Genuine-fake, I decided to create a package to help people that have needs to create or test random large text functionality to save time and create random text.
+You may find the details of the inspiring project link here: [https://pypi.org/project/Genuine-fake/]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What does it do?
 
-### Markdown
+Just as the name suggest, it will produce completely random text (BS) in a common text format. Please note that at this phase of the project, grammar and semantics are in the scope, nor do I intend to add them in. The text from this package is completely random.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Why
+
+During my development time for the database, I realized that there are no existing easy methods to create random text strings to simulate real world content input. With that thought in mind, I decided to create this package for countering the situation.
+
+## How to use it
+
+### To install:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+$ pip install genuine-bs
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Usage
 
-### Jekyll Themes
+```markdown
+import genuine-bs as bs
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shengxio/genuine_bs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+bs.phrase()
+bs.sentence()
+bs.paragraph()
+bs.article()
 
-### Support or Contact
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Support or Contact
+
+Please leave comments or issue in the github repo page. Let me know if you questions or concerns. Thanks!
