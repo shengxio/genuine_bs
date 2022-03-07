@@ -16,7 +16,7 @@ During my development time for the database, I realized that there are no existi
 ### To install:
 
 ```markdown
-$ pip install genuine-bs
+$ pip install genuine-bs-shengxio
 ```
 
 ### Usage
