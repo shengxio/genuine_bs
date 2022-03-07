@@ -22,7 +22,7 @@ $ pip install genuine-bs
 ### Usage
 
 ```markdown
-import genuine-bs as bs
+from genuine_bs import bs
 
 bs.rand_username()
 bs.rand_version())
