@@ -24,10 +24,15 @@ $ pip install genuine-bs
 ```markdown
 import genuine-bs as bs
 
-bs.phrase()
-bs.sentence()
-bs.paragraph()
-bs.article()
+bs.rand_username()
+bs.rand_version())
+bs.rand_url()
+bs.rand_ip()
+bs.rand_list()
+bs.rand_words()
+bs.rand_sentence()
+bs.rand_paragraph()
+bs.rand_article()
 
 ```
 
